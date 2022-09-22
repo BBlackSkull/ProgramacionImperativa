@@ -23,7 +23,7 @@ const ordenar = array =>{
        
         for(let j = 0; j <array.length - 1; j++ ){
            
-            if(array[j] > array[j + 1]){
+            if(array[j].edad > array[j + 1].edad){
             
                 aux = array[j];
                 array[j]=array[j+1];
@@ -35,3 +35,5 @@ const ordenar = array =>{
 
 
 }
+ordenar(mascota)
+console.log(mascota)
